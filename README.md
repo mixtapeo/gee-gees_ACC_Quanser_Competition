@@ -16,7 +16,7 @@ Download the 'mycar' zip folder in the directory path of ACC_Development/Develop
 
 - **First Terminal**
 
-cd /home/$USER/Documents/ACC_Development/docker/virtual_qcar2
+    - cd /home/$USER/Documents/ACC_Development/docker/virtual_qcar2
 
 sudo docker run --rm -it --network host --name virtual-qcar2 quanser/acc2025-virtual-qcar2 bash
 
