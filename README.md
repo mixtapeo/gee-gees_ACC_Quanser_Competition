@@ -38,7 +38,7 @@ Download the 'mycar' zip folder in the directory path of ACC_Development/Develop
 
 - **Important Notes**
  
- It should be noted that the frame rate was set to 30 fps to ensure the camera always sends the best quality images. This contributed to a low CPS rate of only around 10. Due to low CPS, the algorithm may not work as expected multiple times.
+     - It should be noted that the frame rate was set to 30 fps to ensure the camera always sends the best quality images. This contributed to a low CPS rate of only around 10. Due to low CPS, the algorithm may not work as expected multiple times.
  
 
 ---
