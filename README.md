@@ -5,9 +5,29 @@ This repository contains the code developed for Stage 1 of the 2025 Quanser Amer
 
 Our system uses a combination of computer vision techniques and PID control to navigate lanes, detect traffic lights, and handle intersections.
 
+Due to time and resource constraints, some trade-offs and limitations exist, which are detailed below.
+
+
+## Software Setup
+
 The required packages were installed by following the instructions from the repository provided by Quanser at https://github.com/quanser/ACC-Competition-2025/blob/main/Software_Guides/ACC%20Software%20Setup%20Instructions.md
 
-Due to time and resource constraints, some trade-offs and limitations exist, which are detailed below.
+Enter the following commands in the first terminal.
+
+cd /home/$USER/Documents/ACC_Development/docker/virtual_qcar2
+sudo docker run --rm -it --network host --name virtual-qcar2 quanser/acc2025-virtual-qcar2 bash
+cd /home/qcar2_scripts/python
+python3 Base_Scenarios_Python/Setup_Real_Scenario.py
+
+Enter the following commands in the second terminal.
+
+cd /home/$USER/Documents/ACC_Development/isaac_ros_common
+./scripts/run_dev.sh  /home/$USER/Documents/ACC_Development/Development
+colcon build 
+install/setup.bash
+ros2 launch qcar2_nodes qcar2_virtual_launch.py
+
+Enter the following 
 
 ---
 
