@@ -73,7 +73,8 @@ We have successfully implemented the following features:
 
 ## Repository Structure
 
-- `uottawa_qcar2_code.py` — Lane, stop sign, yield sign, and traffic light detection; passenger pickup and dropoff; PD steering control.
+- `uottawa_qcar2_code.py`
+        -  Lane, stop sign, yield sign, and traffic light detection; passenger pickup and dropoff; PD steering control.
 - `README.md` — Project overview and notes.
 
 ---
