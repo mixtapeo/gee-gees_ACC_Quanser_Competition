@@ -59,7 +59,7 @@ We have successfully implemented the following features:
 
 ---
 
-## PD Tuning Strategy
+## Tuning the Parameters of PD Controller
   - Car starts the first trip using:
     - **kp = 0.3**, **kd = 0.15**
   - After passing the stop sign:
