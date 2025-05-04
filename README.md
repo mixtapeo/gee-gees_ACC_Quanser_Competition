@@ -18,16 +18,13 @@ Download the 'mycar' zip folder in the directory path of ACC_Development/Develop
 
     - cd /home/$USER/Documents/ACC_Development/docker/virtual_qcar2
     - sudo docker run --rm -it --network host --name virtual-qcar2 quanser/acc2025-virtual-qcar2 bash
+    - cd /home/qcar2_scripts/python
+    - python3 Base_Scenarios_Python/Setup_Real_Scenario.py
+    - Ensure the message 'Starting Traffic Light Sequence' pops up before executing the commands in the subsequent terminals. 
 
-cd /home/qcar2_scripts/python
+- **Second Terminal**
 
-python3 Base_Scenarios_Python/Setup_Real_Scenario.py
-
-Ensure the message 'Starting Traffic Light Sequence' pops up before executing the commands in the subsequent terminals. 
-
-Enter the following commands in the second terminal.
-
-cd /home/$USER/Documents/ACC_Development/isaac_ros_common
+    - cd /home/$USER/Documents/ACC_Development/isaac_ros_common
 
 ./scripts/run_dev.sh  /home/$USER/Documents/ACC_Development/Development
 
