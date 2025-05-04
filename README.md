@@ -15,7 +15,9 @@ The required packages were installed by following the instructions from the repo
 Enter the following commands in the first terminal.
 
 cd /home/$USER/Documents/ACC_Development/docker/virtual_qcar2
+
 sudo docker run --rm -it --network host --name virtual-qcar2 quanser/acc2025-virtual-qcar2 bash
+
 cd /home/qcar2_scripts/python
 python3 Base_Scenarios_Python/Setup_Real_Scenario.py
 
