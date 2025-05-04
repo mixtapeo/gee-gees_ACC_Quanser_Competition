@@ -12,7 +12,7 @@ Due to time and resource constraints, some trade-offs and limitations exist, whi
 
 The required packages were installed by following the instructions from the repository provided by Quanser at https://github.com/quanser/ACC-Competition-2025/blob/main/Software_Guides/ACC%20Software%20Setup%20Instructions.md
 
-Download the 'mycar' zip folder in the directory path of ACC_Development/Development/ros2/src. Unzip the folder's contents after ensuring it's next to the 'qcar2_interfaces' and 'qcar2_nodes' packages. 
+Download the 'mycar' zip folder in the directory path of ACC_Development/Development/ros2/src. Unzip the folder's contents after ensuring it's next to the 'qcar2_interfaces' and 'qcar2_nodes' packages. Please open up three terminals and enter the following commands.
 
 - **First Terminal**
 
