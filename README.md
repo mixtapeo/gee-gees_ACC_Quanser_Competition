@@ -12,6 +12,8 @@ Due to time and resource constraints, some trade-offs and limitations exist, whi
 
 The required packages were installed by following the instructions from the repository provided by Quanser at https://github.com/quanser/ACC-Competition-2025/blob/main/Software_Guides/ACC%20Software%20Setup%20Instructions.md
 
+Download the 'mycar' zip folder in the directory path of ACC_Development/Development/ros2/src. Unzip the folder's contents after ensuring it's next to the 'qcar2_interfaces' and 'qcar2_nodes' packages. 
+
 Enter the following commands in the first terminal.
 
 cd /home/$USER/Documents/ACC_Development/docker/virtual_qcar2
@@ -21,6 +23,8 @@ sudo docker run --rm -it --network host --name virtual-qcar2 quanser/acc2025-vir
 cd /home/qcar2_scripts/python
 
 python3 Base_Scenarios_Python/Setup_Real_Scenario.py
+
+Ensure the message 'Starting Traffic Light Sequence' pops up before executing the commands in the subsequent terminals. 
 
 Enter the following commands in the second terminal.
 
@@ -34,8 +38,13 @@ install/setup.bash
 
 ros2 launch qcar2_nodes qcar2_virtual_launch.py
 
+Copy and paste the first four commands from the second terminal in the third terminal. The third terminal is attached to the Isaac docker container running in the second terminal. 
 
-Enter the following 
+Go to the path of the python script by entering cd ros2/src/mycar/src
+
+Execute the python script by entering python3 uottawa_qcar2_code.py
+
+Please refer to the section of important notes while running the python script. 
 
 ---
 
