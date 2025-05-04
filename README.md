@@ -14,7 +14,7 @@ The required packages were installed by following the instructions from the repo
 
 Download the 'mycar' zip folder in the directory path of ACC_Development/Development/ros2/src. Unzip the folder's contents after ensuring it's next to the 'qcar2_interfaces' and 'qcar2_nodes' packages. 
 
-Enter the following commands in the first terminal.
+- **First Terminal**
 
 cd /home/$USER/Documents/ACC_Development/docker/virtual_qcar2
 
