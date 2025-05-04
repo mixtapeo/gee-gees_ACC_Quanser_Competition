@@ -46,7 +46,7 @@ Download the 'mycar' zip folder in the directory path of ACC_Development/Develop
      - Car rotating in circles at the beginning before the first yield sign.
      - Car trying to turn left at the second traffic light.
      - In all above cases, the simulation must be restarted. Alternatively, if the car's behaviour deviates from the behaviour shown in the video, then the simulation must be restarted.
-
+     - The yield sign does get detected by the car and the message would pop up in the terminal. However, this depends on the angular view of the depth camera after the car turns right at the the first traffic light. 
 ---
 
 ## Accomplishments
@@ -59,20 +59,7 @@ We have successfully implemented the following features:
 
 ---
 
-## Important Notes and Known Issues
-
-- **Yield Sign Detection**:
-  - Due to time constraints, we decided to completely ignore yield sign detection.
-
-- **Traffic Light Detection**:
-  - The car stops briefly at red lights.
-  - However, the traffic light detection system is not fully reliable. Sometimes, a red light may be misclassified as a yellow light.
-
-- **Depth Camera and Stop Sign Behavior**:
-  - Due to low Cycles Per Second (CPS) during some runs, simulation behavior may vary.
-  - In low CPS cases, the depth camera fails to return accurate measurements, causing the car to occasionally miss stopping at stop signs.
-
-- **PID Tuning Strategy**:
+## PD Tuning Strategy
   - Car starts the first trip using:
     - **kp = 0.3**, **kd = 0.15**
   - After passing the stop sign:
@@ -80,16 +67,13 @@ We have successfully implemented the following features:
   - When turning right at a red light:
     - The turn is controlled using a `while` loop.
   - Approaching the roundabout:
-    - PID values are adjusted to **kp = 0.47**, **kd = 0.15** for smoother navigation.
+    - PD values are adjusted to **kp = 0.47**, **kd = 0.15** for smoother navigation.
 
 ---
 
 ## Repository Structure
 
-- `lane_detection_pid.py` — Lane detection and car control using PID.
-- `traffic_light_detection.py` — Detection of red, yellow, and green lights using OpenCV.
-- `stop_sign_detection.py` — Stop sign detection and stopping logic.
-- `pickup_dropoff.py` — Pick-up and drop-off navigation logic.
+- `uottawa_qcar2_code.py` — Lane, stop sign, yield sign, and traffic light detection; passenger pickup and dropoff; PD steering control.
 - `README.md` — Project overview and notes.
 
 ---
@@ -105,7 +89,14 @@ We thank Quanser and the organizing team for providing this opportunity to learn
 For questions or collaboration:
 - **Team Name**: Gee-Gees
 - **University**: University of Ottawa
-- **Team Leader**: Mohammad Ahsan Akhlaque
+  
+- **Team Captain**: Mohammad Ahsan Akhlaque
 - **Email**: aakhl097@uottawa.ca
+
+- **Team Member**: Kishita Pakhrani
+- **Email**: kpakhran@uottawa.ca
+
+- **Team Member**: Jonathan Horton
+- **Email**: jhort062@uottawa.ca
 
 ---
