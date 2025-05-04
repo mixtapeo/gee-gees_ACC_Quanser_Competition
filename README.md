@@ -5,6 +5,8 @@ This repository contains the code developed for Stage 1 of the 2025 Quanser Amer
 
 Our system uses a combination of computer vision techniques and PID control to navigate lanes, detect traffic lights, and handle intersections.
 
+The required packages were installed by following the instructions from the repository provided by Quanser at https://github.com/quanser/ACC-Competition-2025/blob/main/Software_Guides/ACC%20Software%20Setup%20Instructions.md
+
 Due to time and resource constraints, some trade-offs and limitations exist, which are detailed below.
 
 ---
