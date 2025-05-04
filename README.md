@@ -25,22 +25,21 @@ Download the 'mycar' zip folder in the directory path of ACC_Development/Develop
 - **Second Terminal**
 
     - cd /home/$USER/Documents/ACC_Development/isaac_ros_common
+    - ./scripts/run_dev.sh  /home/$USER/Documents/ACC_Development/Development
+    - colcon build 
+    - install/setup.bash
+    - ros2 launch qcar2_nodes qcar2_virtual_launch.py
 
-./scripts/run_dev.sh  /home/$USER/Documents/ACC_Development/Development
+- **Third Terminal**
 
-colcon build 
+    - Copy and paste the first four commands from the second terminal in the third terminal. The third terminal is attached to the Isaac docker container running in the second terminal. 
+    - Go to the path of the python script by entering 'cd ros2/src/mycar/src'.
+    - Execute the python script by entering: 'python3 uottawa_qcar2_code.py'.
 
-install/setup.bash
-
-ros2 launch qcar2_nodes qcar2_virtual_launch.py
-
-Copy and paste the first four commands from the second terminal in the third terminal. The third terminal is attached to the Isaac docker container running in the second terminal. 
-
-Go to the path of the python script by entering cd ros2/src/mycar/src
-
-Execute the python script by entering python3 uottawa_qcar2_code.py
-
-Please refer to the section of important notes while running the python script. 
+- **Important Notes**
+ 
+ It should be noted that the frame rate was set to 30 fps to ensure the camera always sends the best quality images. This contributed to a low CPS rate of only around 10. Due to low CPS, the algorithm may not work as expected multiple times.
+ 
 
 ---
 
