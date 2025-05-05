@@ -3,7 +3,7 @@
 ## Project Overview
 This repository contains the code developed for Stage 1 of the 2025 Quanser American Control Conference Self-Driving Car Student Competition.
 
-Our system uses a combination of computer vision techniques and PID control to navigate lanes, detect traffic lights, and handle intersections. Please use the video as a reference, if necessary. 
+Our system uses a combination of computer vision techniques and PID control to navigate lanes, detect traffic lights, and handle intersections. 
 
 Due to time and resource constraints, some trade-offs and limitations exist, which are detailed below. 
 
@@ -38,7 +38,7 @@ After that, navigate to the directory path of ACC_Development/Development/ros2/s
 
 - **Important Notes**
  
-     - It should be noted that the frame rate was set to 30 fps to ensure the camera always sends the best quality images. This contributed to a low CPS rate of only around 10. Due to low CPS, the algorithm may not work as expected multiple times. On our end, the simulation worked after around 7 failed trials. Occasionally, you may observe the following behaviours:
+     - It should be noted that the frame rate was set to 30 fps to ensure the camera always sends the best quality images. This contributed to a low CPS rate of only around 10. Due to low CPS, the algorithm may not work as expected multiple times. On our end, the simulation worked after around 7 failed trials. Please use the video as a reference, if necessary. Occasionally, you may observe the following behaviours while validating our algorithm:
      - Car stopping at the stop sign a bit early or a bit far from the mark due to depth camera glitching. In other words, the car is not stopping near the mark the way it is in the video.
      - Car not stopping at the stop sign as programmed.
      - Car going straight after the stop sign instead of turning left.
