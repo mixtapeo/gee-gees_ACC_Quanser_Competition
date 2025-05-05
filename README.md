@@ -46,6 +46,7 @@ After that, navigate to the directory path of ACC_Development/Development/ros2/s
      - Car rotating in circles at the beginning before the first yield sign.
      - Car trying to turn left at the second traffic light.
      - In all above cases, the simulation must be restarted. Alternatively, if the car's behaviour deviates from the behaviour shown in the video, then the simulation must be restarted.
+     - Please don't restart the simulation if the car doesn't drive properly at the roundabout. That error occurs because our lane detection algorithm is not perfect.
      - The yield sign does get detected by the car and the message would pop up in the terminal. However, this depends on the angular view of the depth camera after the car turns right at the the first traffic light. 
 ---
 
