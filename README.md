@@ -3,9 +3,9 @@
 ## Project Overview
 This repository contains the code developed for Stage 1 of the 2025 Quanser American Control Conference Self-Driving Car Student Competition.
 
-Our system uses a combination of computer vision techniques and PID control to navigate lanes, detect traffic lights, and handle intersections.
+Our system uses a combination of computer vision techniques and PID control to navigate lanes, detect traffic lights, and handle intersections. Please use the video as a reference, if necessary. 
 
-Due to time and resource constraints, some trade-offs and limitations exist, which are detailed below.
+Due to time and resource constraints, some trade-offs and limitations exist, which are detailed below. 
 
 
 ## Software Setup
