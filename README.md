@@ -80,7 +80,7 @@ We have successfully implemented the following features:
 
 ---
 
-## Acknowledgements
+## Acknowledgement
 
 We thank Quanser and the organizing team for providing this opportunity to learn and innovate with autonomous vehicles.
 
