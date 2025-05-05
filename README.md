@@ -42,7 +42,7 @@ After that, navigate to the directory path of ACC_Development/Development/ros2/s
      - Car stopping at the stop sign a bit early or a bit far from the mark due to depth camera glitching. In other words, the car is not stopping near the mark the way it is in the video.
      - Car not stopping at the stop sign as programmed.
      - Car going straight after the stop sign instead of turning left.
-     - Car turning right a bit early at the first traffic light. In other words, the right turn is not smooth and the car may be seen being driven on white path.
+     - Car turning right a bit early at the first traffic light. In other words, the right turn is not smooth and the car may be seen being driven on white area.
      - Car rotating in circles at the beginning before the first yield sign.
      - Car trying to turn left at the second traffic light.
      - In all above cases, the simulation must be restarted. Alternatively, if the car's behaviour deviates from the behaviour shown in the video, then the simulation must be restarted.
