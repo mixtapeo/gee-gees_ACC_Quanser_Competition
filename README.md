@@ -37,7 +37,10 @@ After that, ensure if you could navigate to the directory path of ACC_Developmen
     - Navigate to the source subdirectory of the ros2 folder by entering 'cd ros2/src'.
     - Enter the 'ls' command to enusre that you're currently in the directory in which you can only see the 'qcar2_interfaces' and 'qcar2_nodes' packages.
     - Create a new folder by entering the command 'ros2 pkg create --build-type ament_cmake mycar' in the terminal. This will automatically create an empty 'src' and an empty 'include' subdirectory. In addition, the command will automatically create a CMAKE.txt file and a package.xml file. You can compare those files to the ones that the team has uploaded, if necessary.
-    - Navigate to the 'src' subdirectory of the newly created 'mycar' folder by entering 'cd src'. Once there, copy and paste the 'setup.py' and the 'uottawa_qcar2_code.py' python scripts. The files are already executable. But to be on safe side, you may enter 'chmod +x setup.py' and 'chmod +x uottawa_qcar2_code.py' to allow user permissions. 
+    - Navigate to the 'src' subdirectory of the newly created 'mycar' folder by entering 'cd src'. Once there, copy and paste the 'setup.py' and the 'uottawa_qcar2_code.py' python scripts. The files are already executable. But to be on safe side, you may enter 'chmod +x setup.py' and 'chmod +x uottawa_qcar2_code.py' to allow user permissions.
+    - Navigate back in the path by entering 'cd ..' four times.
+    - colcon build 
+    - install/setup.bash
     - Go to the path of the python script in the terminal by entering 'cd ros2/src/mycar/src'.
     - Execute the python script by entering: 'python3 uottawa_qcar2_code.py'.
 
