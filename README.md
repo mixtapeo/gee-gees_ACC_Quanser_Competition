@@ -19,8 +19,9 @@ After that, ensure if you could navigate to the directory path of ACC_Developmen
     - cd /home/$USER/Documents/ACC_Development/docker/virtual_qcar2
     - sudo docker run --rm -it --network host --name virtual-qcar2 quanser/acc2025-virtual-qcar2 bash
     - cd /home/qcar2_scripts/python
+    - Note that the QLabs application must be be opened at this point. 
     - python3 Base_Scenarios_Python/Setup_Real_Scenario.py
-    - Ensure the message 'Starting Traffic Light Sequence' pops up before executing the commands in the subsequent terminals. 
+    - Ensure the message 'Starting Traffic Light Sequence' pops up before executing the commands in the subsequent terminals.
 
 - **Second Terminal**
 
