@@ -12,7 +12,7 @@ Due to time and resource constraints, some trade-offs and limitations exist, whi
 
 The docker container and the required dependencies were installed by following the instructions from the repository provided by Quanser at https://github.com/quanser/ACC-Competition-2025/blob/main/Software_Guides/ACC%20Software%20Setup%20Instructions.md
 
-After that, navigate to the directory path of ACC_Development/Development/ros2/src in the window of files. Please open up three terminals and enter the following commands.
+After that, ensure if you could navigate to the directory path of ACC_Development/Development/ros2/src in file explorer. Please open up three terminals and enter the following commands.
 
 - **First Terminal**
 
@@ -34,7 +34,7 @@ After that, navigate to the directory path of ACC_Development/Development/ros2/s
 
     - Copy and paste the first two commands from the second terminal in the third terminal. The third terminal is attached to the Isaac docker container running in the second terminal.
     - Navigate to the source subdirectory of the ros2 folder by entering 'cd ros2/src'.
-    - Ensure through file explorer or the 'ls' command that you're currently in the directory in which you can only see the 'qcar2_interfaces' and 'qcar2_nodes' packages.
+    - Enter the 'ls' command to enusre that you're currently in the directory in which you can only see the 'qcar2_interfaces' and 'qcar2_nodes' packages.
     - Create a new folder by entering the command 'ros2 pkg create --build-type ament_cmake mycar' in the terminal. This will automatically create an empty 'src' and an empty 'include' subdirectory. In addition, the command will automatically create a CMAKE.txt file and a package.xml file. You can compare those files to the ones that the team has uploaded, if necessary.
     - Navigate to the 'src' subdirectory of the newly created 'mycar' folder by entering 'cd src'. Once there, copy and paste the 'setup.py' and the 'uottawa_qcar2_code.py' python scripts. The files are already executable. But to be on safe side, you may enter 'chmod +x setup.py' and 'chmod +x uottawa_qcar2_code.py' to allow user permissions. 
     - Go to the path of the python script in the terminal by entering 'cd ros2/src/mycar/src'.
