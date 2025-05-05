@@ -38,6 +38,7 @@ After that, navigate to the directory path of ACC_Development/Development/ros2/s
 
 - **Important Notes**
  
+     - Please don't restart the simulation if the car doesn't drive properly at the roundabout. That error occurs because our lane detection algorithm is not perfect.
      - It should be noted that the frame rate was set to 30 fps to ensure the camera always sends the best quality images at high speed. This contributed to a low CPS rate of only around 10. Due to low CPS, the algorithm may not work as expected multiple times. On our end, the simulation worked after around 7 failed trials. Please use the video as a reference, if necessary. Occasionally, you may observe the following behaviours while validating our algorithm:
      - Car stopping at the stop sign a bit early or a bit far from the mark due to depth camera glitching. In other words, the car is not stopping near the mark the way it is in the video.
      - Car not stopping at the stop sign as programmed.
@@ -46,7 +47,6 @@ After that, navigate to the directory path of ACC_Development/Development/ros2/s
      - Car rotating in circles at the beginning before the first yield sign.
      - Car trying to turn left at the second traffic light.
      - In all above cases, the simulation must be restarted. Alternatively, if the car's behaviour deviates from the behaviour shown in the video, then the simulation must be restarted.
-     - Please don't restart the simulation if the car doesn't drive properly at the roundabout. That error occurs because our lane detection algorithm is not perfect.
      - The yield sign does get detected by the car and the message would pop up in the terminal. However, this depends on the angular view of the depth camera after the car turns right at the the first traffic light. 
 ---
 
