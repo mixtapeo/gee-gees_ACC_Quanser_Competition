@@ -85,6 +85,7 @@ We have successfully implemented the following features:
 - `uottawa_qcar2_code.py`
         -  Lane, stop sign, yield sign, and traffic light detection; passenger pickup and dropoff; PD steering control.
 - `README.md` — Project overview and notes.
+- `final_video_submission.mp4` — A video file that may be used for reference if car's behavior gets affected by low CPS.
 
 ---
 
