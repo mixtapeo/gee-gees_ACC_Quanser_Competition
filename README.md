@@ -88,6 +88,14 @@ We thank Quanser and the organizing team for providing this opportunity to learn
 ## Contact
 
 For questions or collaboration:
+
+- **Professor**: Mohamed Atia
+- **University**: Carleton University
+- **Department**: Systems and Computer Engineering
+- **Email**: mohamed.atia@carleton.ca
+
+  
+
 - **Team Name**: Gee-Gees
 - **University**: University of Ottawa
   
@@ -99,10 +107,5 @@ For questions or collaboration:
 
 - **Team Member**: Jonathan Horton
 - **Email**: jhort062@uottawa.ca
-
-- **Professor**: Mohamed Atia
-- **University**: Carleton University
-- **Department**: Systems and Computer Engineering
-- **Email**: mohamed.atia@carleton.ca
 
 ---
