@@ -1,0 +1,4 @@
+# Install Python Packages
+RUN pip3 install -U \
+    tkinter \
+    
