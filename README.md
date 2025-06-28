@@ -7,6 +7,10 @@ Our system uses a combination of computer vision techniques and PD control to na
 
 Due to time and resource constraints, some trade-offs and limitations exist, which are detailed below. 
 
+## Stage 1 progress video
+
+https://github.com/user-attachments/assets/277dfff4-8a4d-4a09-8866-27d09e4b5b6e
+
 
 ## Software Setup
 
