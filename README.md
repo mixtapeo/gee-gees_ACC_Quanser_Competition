@@ -121,5 +121,8 @@ For questions or collaboration:
 
 - **Team Member**: Jonathan Horton
 - **Email**: jhort062@uottawa.ca
-
+  
+- **Team Member**: Anirudh Sridhar
+- **University**: Carleton University
+- **Email**: anirudhsridhar@cmail.carleton.ca
 ---
